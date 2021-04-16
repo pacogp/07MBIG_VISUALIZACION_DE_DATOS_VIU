@@ -36,7 +36,7 @@ var data = [
     .axes({"ticks" : false})
     .draw();
 
-var data = [
+var dataBigotes = [
     {"year": 1991, "name":"alpha", "value": 15},
     {"year": 1992, "name":"alpha", "value": 34},
     {"year": 1991, "name":"alpha2", "value": 17},
@@ -57,7 +57,7 @@ var data = [
 
   var visualization = d3plus.viz()
     .container("#viz3")
-    .data(data)
+    .data(dataBigotes)
     .type("bar")
     .id("name")
     .x("year")
